@@ -1,4 +1,201 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: helvetica;
+}
+
+  .container {
+    position: relative;
+    margin: 0 auto;
+    width:375px;
+    background-color: #cdcdcd;
+  }
+
+  .preview-baku {
+    position: relative;
+    width: 100%;
+  }
+
+  .baku {
+    width: 100%;
+  }
+
+  .baku-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .preview-london {
+    position: relative;
+    width: 100%;
+  }
+
+  .london {
+    width: 100%;
+  }
+
+  .london-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .preview-madrid {
+    position: relative;
+    width: 100%;
+  }
+
+  .madrid {
+    width: 100%;
+  }
+
+  .madrid-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .preview-rome {
+    position: relative;
+    width: 100%;
+  }
+
+  .rome {
+    width: 100%;
+  }
+
+  .rome-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  @media screen and (min-width: 575px){
+
+      .container {
+        width:150%
+      }
+
+      .preview-baku {
+        display: inline-block;
+        width: 48%;
+        margin: 1%;
+      }
+
+      .preview-london {
+        display: inline-block;
+        width: 48%;
+      }
+
+      .preview-madrid {
+        display: inline-block;
+        width: 48%;
+        margin: 1%;
+      }
+
+      .preview-rome {
+        display: inline-block;
+        width: 46%;
+      }
+
+    }
+
+@media screen and (min-width: 768px){
+
+    .container {
+      width:200%
+    }
+
+    .preview-baku {
+      display: inline-block;
+      width: 48%;
+      margin: 1%;
+    }
+
+    .preview-london {
+      display: inline-block;
+      width: 48%;
+    }
+
+    .preview-madrid {
+      display: inline-block;
+      width: 48%;
+      margin: 1%;
+    }
+
+    .preview-rome {
+      display: inline-block;
+      width: 46%;
+    }
+}
+
+@media screen and (min-width: 991px){
+
+    .container {
+      width:260%;
+    }
+
+    .preview-baku {
+      display: inline-block;
+      width: 24%;
+      margin: 1%;
+    }
+
+    .preview-london {
+      display: inline-block;
+      width: 24%;
+    }
+
+    .preview-madrid {
+      display: inline-block;
+      width: 24%;
+      margin: 1%;
+    }
+
+    .preview-rome {
+      display: inline-block;
+      width: 23%;
+    }
+
+  }
+
+
+@media screen and (min-width: 1125px){
+
+      .container {
+        width:300%
+      }
+
+      .preview-baku {
+        display: inline-block;
+        width: 24%;
+        margin: 1%;
+      }
+
+      .preview-london {
+        display: inline-block;
+        width: 24%;
+      }
+
+      .preview-madrid {
+        display: inline-block;
+        width: 24%;
+        margin: 1%;
+      }
+
+      .preview-rome {
+        display: inline-block;
+        width: 23%;
+      }
+
+    }
