@@ -22,6 +22,12 @@ h2 {
   padding-bottom:20px;
 }
 
+.image-container {
+  float: left;
+  width: 100%;
+  padding: 1%;
+}
+
   .preview-baku {
     background-image:url("../images/baku.jpg");
     background-size:cover;
@@ -96,84 +102,16 @@ h2 {
 
   @media screen and (min-width: 575px){
 
-      .preview-baku {
-        display: inline-block;
-        width:46%;
-        margin:1%;
-      }
-
-      .preview-london {
-        display: inline-block;
-        width:46%;
-        margin:1%;
-      }
-
-      .preview-madrid {
-        display: inline-block;
-        width:46%;
-        margin:1%;
-      }
-
-      .preview-rome {
-        display: inline-block;
-        width:46%;
-        margin:1%;
-      }
-
+    .image-container {
+      float: left;
+      width: 50%;
     }
-
+}
 
 @media screen and (min-width: 991px){
 
-    .preview-baku {
-      display: inline-block;
-      width: 22%;
-
-    }
-
-    .preview-london {
-      display: inline-block;
-      width: 22%;
-
-    }
-
-    .preview-madrid {
-      display: inline-block;
-      width: 22%;
-
-    }
-
-    .preview-rome {
-      display: inline-block;
-      width: 23%;
-    }
-
+  .image-container {
+    float: left;
+    width: 25%;
   }
-
-
-@media screen and (min-width: 1125px){
-
-      .preview-baku {
-        display: inline-block;
-        width: 22%;
-        margin: 1%;
-      }
-
-      .preview-london {
-        display: inline-block;
-        width: 22%;
-        margin: 1%;
-      }
-
-      .preview-madrid {
-        display: inline-block;
-        width: 22%;
-        margin: 1%;
-      }
-
-      .preview-rome {
-        display: inline-block;
-        width: 23%;
-      }
-
-    }
+}
